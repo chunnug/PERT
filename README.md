@@ -12,12 +12,19 @@ The Attributes of vertices in the PERT class include earliest start and finish, 
 
 Methods implemented
 **Pert:** Initialises all nodes in a DFS DAG with earliest start, finish, and latest start,finish. Finds the slack possible for each task
+
 **topologicalOrder:** Find a topological order of graph using DFS
+
 **ec(Vertex u):** Earliest time at which task 'u' can be completed
+
 **lc(Vertex u):** Latest completion time of 'u'
+
 **Slack(Vertex u):** Slack of 'u'
+
 **CriticalPath():** Length of a critical path (time taken to complete project)
+
 **critical(Vertex u):** is vertex 'u' a critical path
+
 **numCritical:** Number of critical vertices of graph g
 
 ## Optimizations
